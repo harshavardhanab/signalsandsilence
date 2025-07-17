@@ -1,7 +1,7 @@
 +++
 date = "2025-07-17T11:49:57+05:30"
 draft = false
-title = "B2b Saas From India"
+title = "B2B Saas From India"
 tags = ["b2b", "saas"]
 categories = ["strategy", "India"]
 +++

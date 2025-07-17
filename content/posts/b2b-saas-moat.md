@@ -1,5 +1,5 @@
 +++
-title = "B2b Saas Moat"
+title = "B2B Saas Moat"
 date = "2025-07-17"
 summary = "The Anatomy of an Unbreakable B2B SaaS Moat: A Deep Dive"
 tags = ["b2b", "saas", "strategy"]
