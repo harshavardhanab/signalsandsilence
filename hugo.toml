@@ -9,6 +9,21 @@ theme = "PaperMod"
   defaultTheme = "light"
   disableSpecial1stPost = true
   ShowSearch = true
+  customCSS = ["css/custom.css"]
+  comments = true
+  [params.giscus]
+    repo = "harshavardhanab/signalsandsilence"
+    repoID = "R_kgDOPN9Pmw"                  # <-- your actual repo ID
+    category = "Announcements"                     # <-- must match the discussion category name
+    categoryID = "DIC_kwDOPN9Pm84CtEx1"      # <-- your actual category ID
+    mapping = "pathname"
+    strict = "0"
+    reactionsEnabled = "1"
+    emitMetadata = "0"
+    inputPosition = "bottom"
+    theme = "light"
+    lang = "en"
+    loading = "lazy"
 
 [menu]
   [[menu.main]]

@@ -1,0 +1,38 @@
+/* FLOATING SHARE BAR (desktop) */
+.floating-share {
+  position: fixed;
+  top: 40%;
+  left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 1000;
+}
+
+.floating-share a img {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.2s;
+}
+
+.floating-share a:hover img {
+  transform: scale(1.15);
+}
+
+/* INLINE SHARE FOR MOBILE */
+@media (max-width: 768px) {
+  .floating-share {
+    position: static;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 1.5rem 0;
+  }
+}
+
+/* Like button spacing */
+.likebtn-block {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
