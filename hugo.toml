@@ -1,0 +1,35 @@
+baseURL = "http://localhost/"
+languageCode = "en-us"
+title = "Signals & Silence"
+theme = "PaperMod"
+
+[params]
+  ShowToc = true
+  ShowBreadCrumbs = true
+  defaultTheme = "light"
+  disableSpecial1stPost = true
+  ShowSearch = true
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Search"
+    url = "search/"
+    weight = 4
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

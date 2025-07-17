@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Business on Signals &amp; Silence</title>
+    <link>http://localhost:1313/categories/business/</link>
+    <description>Recent content in Business on Signals &amp; Silence</description>
+    <generator>Hugo -- 0.148.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/business/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>B2b Saas Moat</title>
+      <link>http://localhost:1313/posts/b2b-saas-moat/</link>
+      <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/b2b-saas-moat/</guid>
+      <description>The Anatomy of an Unbreakable B2B SaaS Moat: A Deep Dive</description>
+    </item>
+  </channel>
+</rss>
