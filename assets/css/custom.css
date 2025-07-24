@@ -36,3 +36,41 @@
   margin-bottom: 1rem;
   text-align: left;
 }
+
+.faq-wrapper {
+  display: flex;
+  gap: 1.5rem;
+}
+.faq-sidebar {
+  min-width: 230px;
+  font-size: 0.95rem;
+}
+.faq-nav summary {
+  cursor: pointer;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.faq-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.faq-nav li {
+  margin: 0.25rem 0;
+}
+.faq-nav a {
+  text-decoration: none;
+  color: var(--primary);
+}
+.faq-nav a.active {
+  font-weight: 700;
+}
+/* small screens: stack */
+@media (max-width: 800px) {
+  .faq-wrapper {
+    flex-direction: column;
+  }
+  .faq-sidebar {
+    order: 2;
+  } /* menu below content; tap summary to expand */
+}

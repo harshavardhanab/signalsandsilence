@@ -1,0 +1,24 @@
+{{/* Generates the left‑hand menu of questions */}}
+<details open class="faq-nav">
+  <summary>Questions</summary>
+  <ul>
+    {{ range sort (where .Site.RegularPages "Section" "staff-faq") ".Weight" }}
+    <li>
+      <a
+        href="{{ .RelPermalink }}"
+        {{
+        if
+        eq
+        .File.Path
+        $.File.Path
+        }}class="active"
+        {{
+        end
+        }}
+      >
+        {{ .Title }}
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+</details>

@@ -2,6 +2,7 @@ baseURL = "https://signalsandsilence.com/"
 languageCode = "en-us"
 title = "Signals & Silence"
 theme = "PaperMod"
+mainSections = ["posts"]
 
 [params]
   ShowToc = true
@@ -47,6 +48,12 @@ theme = "PaperMod"
     name = "Search"
     url = "search/"
     weight = 4
+
+  [[menu.main]]
+    name  = "Staff FAQ"
+    url   = "/staff-faq/"
+    weight = 30
+
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
