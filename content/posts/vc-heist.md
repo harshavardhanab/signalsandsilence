@@ -1,6 +1,6 @@
 +++
 title = "The Great VC Heist: How Silicon Valley Turned Innovation Into History's Greatest Ponzi Scheme"
-date = "2025-07-17"
+date = "2025-08-15"
 summary = "The Great VC Heist: How Silicon Valley Turned Innovation Into History's Greatest Ponzi Scheme"
 tags = ["VC"]
 draft = false
