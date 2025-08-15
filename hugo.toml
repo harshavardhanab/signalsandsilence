@@ -7,7 +7,7 @@ mainSections = ["posts"]
 [params]
   ShowToc = true
   TocSide  = "left"   # or "right"
-  TocOpen  = true     # opens by default (optional)  
+  TocOpen  = false     # opens by default (optional)  
   ShowBreadCrumbs = true
   defaultTheme = "light"
   disableSpecial1stPost = true
